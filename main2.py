@@ -12,7 +12,8 @@ from re import findall
 from html import unescape
 
 # PMA地址,例如 http://localhost/index.php
-target = 'http://103.251.91.5/phpmyadmin/index.php'
+url=input("请输入phpmyadmin地址(格式 http://localhost):")
+target = url + '/phpmyadmin/index.php'
 user = 'root'
 passdic = 'TOP1000.txt'
 
@@ -67,6 +68,7 @@ def fuck_pma():
 
 
 if __name__ == "__main__":
+    print(target)
     try:
         fuck_pma()
     except Exception as e:
