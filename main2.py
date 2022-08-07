@@ -1,10 +1,6 @@
 #!/usr/bin/python3
 '''
-# @Author       : Chr_
-# @Date         : 2020-12-06 12:39:57
-# @LastEditors  : Chr_
-# @LastEditTime : 2020-12-08 13:16:20
-# @Description  : PhpMyAdmin爆破脚本
+# @Description  : PhpMyAdmin爆破脚本修改版
 '''
 
 from requests import session
